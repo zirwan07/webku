@@ -1,0 +1,128 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .top-contact {
+        background-color: #1b3b5f;
+        color: white;
+        font-size: 0.9em;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      
+      .main-header {
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+      }
+      
+      .school-logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+      }
+      
+      .logo-title {
+        display: flex;
+        align-items: center;
+      }
+      
+      .title-text h1 {
+        margin: 0;
+        color: #1b3b5f;
+      }
+      
+      .title-text p {
+        margin: 5px 0 0;
+        font-size: 0.9em;
+        color: #555;
+      }
+      
+      .search-bar {
+        display: flex;
+        gap: 5px;
+      }
+      
+      .search-bar input {
+        padding: 5px;
+        font-size: 1em;
+      }
+      
+      .search-bar button {
+        padding: 5px 10px;
+        background-color: #1b3b5f;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .main-nav {
+        background-color: #1b3b5f;
+      }
+      
+      .main-nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .main-nav li {
+        position: relative;
+      }
+      
+      .main-nav a {
+        display: block;
+        padding: 12px 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .program {
+      margin-bottom: 40px;
+      border-left: 5px solid #0d47a1;
+      padding-left: 20px;
+    }
+
+    .program h2 {
+      margin-top: 0;
+      color: #0d47a1;
+    }
+
+    .program p {
+      margin: 10px 0;
+    }
+
+    .dok {
+      background-color: #dde1ff;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #1b3b5f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }

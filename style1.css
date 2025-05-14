@@ -1,0 +1,134 @@
+*body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+  }
+
+.top-contact {
+    background-color: #1b3b5f;
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .main-header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .school-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title-text h1 {
+    margin: 0;
+    color: #1b3b5f;
+  }
+  
+  .title-text p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #1b3b5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-nav {
+    background-color: #1b3b5f;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav li {
+    position: relative;
+  }
+  
+  .main-nav a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .hero {
+    background-image: url('https://source.unsplash.com/1600x600/?school,classroom');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  .section h2 {
+    color: #1b3b5f;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #1b3b5f;
+    padding: 8px;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  .card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 2px 8px #1b3b5f;
+  }
